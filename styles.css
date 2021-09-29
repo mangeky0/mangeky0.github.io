@@ -1,0 +1,42 @@
+/* CSS Document */
+body {
+	background-color: aqua;
+	animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+	
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+#overskrift {
+display: block;
+margin-left: auto; 
+margin-right: auto;
+}
+#bildet {
+	position: absolute;
+	top: 200px;
+}
+#tekst {
+	position: absolute;
+	right: 400px;
+	top: 150px;
+
+}
+#link { 
+	position: absolute;
+	top: 200px;
+	right: 420px;
+	
+}
+#video {
+	position: absolute;
+	top: 300px;
+	right: 120px;		
+}
